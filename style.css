@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.navBar {
+  position: sticky;
+  top: 0;
+}
+.location > h5 {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  margin-bottom: 6px;
+  font-size: 18px;
+}
+.location > p {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 400;
+}
+.vertical-line {
+  height: 55px;
+  border-left: 2px solid #f2f2f2;
+}
+.search-div {
+  padding: 0px 12px;
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 12px;
+  background: rgb(248, 248, 248);
+  color: rgb(130, 130, 130);
+}
+.search-div > input {
+  border: none;
+  background-color: transparent;
+  width: 40vw;
+  height: 45px;
+}
+::placeholder {
+  font-size: 14px;
+  line-height: 18px;
+  color: rgb(153, 153, 153);
+}
+.color-bt {
+  background-color: rgb(12, 131, 31) !important;
+  font-size: 14px !important;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto Serif", serif;
+}
+.fa-cart-shopping:before,
+.fa-shopping-cart:before {
+  content: "\f07a";
+  padding-right: 10px;
+}
+.my-categories {
+  width: 94%;
+}
+.category-section,
+.my-container {
+  margin-left: 47px;
+  width: 92%;
+  overflow-x: auto;
+}
+.my-list {
+  white-space: nowrap;
+}
+.my-list > img {
+  padding-inline: 0px;
+  margin-right: 16px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.my-card{
+    width: 179px;
+    margin-inline: 10px;
+}
+.my-card-time{
+  width: fit-content;
+  border-radius: 4px;
+  background-color: rgb(248, 248, 248);
+  padding: 0px 4px;
+  font-weight: 700;
+  font-size: 9px;
+  color: rgb(54, 54, 54);
+}
+.my-card-title{
+  color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 13px;
+}
+.my-price-btn{
+  align-items: center;
+}
+.my-card-weight{
+  color: #666;
+    font-size: 12px;
+    font-family: serif;
+}
+.my-card-price{
+  color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 12px;
+}
+.category-section{
+  width: 85%;
+  margin: 39px;
+}
+.category-section-row{
+  width: 100%;
+  overflow-x: scroll;
+}
+.mrp{
+  color: #666;
+  font-size: 12px;
+}
